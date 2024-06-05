@@ -11,6 +11,7 @@ touch /docker/redis/conf/redis.conf
 ```
 
 配置文件地址:[https://redis.io/docs/management/config/](https://redis.io/docs/management/config/)
+测试
 
 ## 启动  
 ```bash

@@ -1,0 +1,31 @@
+{
+  "statusBarOrder": [
+    "21158125591592961302657435",
+    "24555187024691201665220432",
+    "86515888475340801543377291",
+    "72503815370178563442714855",
+    "12843970849669122596921091"
+  ],
+  "ribbonBarOrder": [],
+  "fileExplorerOrder": {
+    "/": [
+      "Front-End",
+      "Back-End",
+      "Frame-Study",
+      "Linux",
+      "Docker",
+      "Maven",
+      "Soft-Tools",
+      "Obsidian"
+    ],
+    "Linux": [
+      "Linux/Kali",
+      "Linux/解压缩"
+    ]
+  },
+  "actionBarOrder": {},
+  "autoHide": false,
+  "autoHideDelay": 2000,
+  "dragDelay": 200,
+  "sortOrder": "custom"
+}

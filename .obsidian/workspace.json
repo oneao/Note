@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "19cbc81464afd085",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fa013985ca76938",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "092f59cf4d88db50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Redis/Docker安装Redis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b094bae0fa1deabe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker/安装.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "59c7c3e8f666ad1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c89c6e3f192bfd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5a8904c79fdc4af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom"
+              }
+            }
+          },
+          {
+            "id": "a7663ec1d2d38d15",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6d6a14267b03342a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.5
+  },
+  "right": {
+    "id": "fbf5c8ce336e2942",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f4c6356a9bf5ea3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb58ded1f89caa49",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Docker/Redis/Docker安装Redis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "8bf5e6d27f3dfb8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Docker/Redis/Docker安装Redis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "157bddca9b33f974",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d7767fef04a476a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Docker/Redis/Docker安装Redis.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "notion-like-tables:Create loom": false
+    }
+  },
+  "active": "092f59cf4d88db50",
+  "lastOpenFiles": [
+    "Docker/MySQL/Docker安装MySQL.md",
+    "Linux/Kali/开启蓝牙服务.md",
+    "Soft-Tools/Copilot.md",
+    "Soft-Tools/JetBrains系列.md",
+    "Docker/Redis/Docker安装Redis.md",
+    "Docker/Docker/安装.md",
+    "Front-End/Nvm/Linux安装NVM.md",
+    "Maven/安装/Linux安装Maven.md",
+    "Back-End/Java/安装.md",
+    "Linux/VMware安装和使用.md",
+    "Linux/VMware",
+    "Docker/MySQL/Docker导出MySQL数据.md",
+    "Obsidian/插件.md",
+    "obsidian-git-2.24.2/styles.css",
+    "obsidian-git-2.24.2/manifest.json",
+    "obsidian-git-2.24.2/main.js",
+    "obsidian-git-2.24.2",
+    "push.sh",
+    "Obsidian",
+    "Frame-Study/SoybeanAdmin",
+    "Frame-Study",
+    "Docker/Docker/安装/Linux安装Docker.md",
+    "Back-End/GoLang/安装.md",
+    "Soft-Tools",
+    "Back-End/Java/安装/Linux安装Jdk.md",
+    "Front-End/Es6/使用.md",
+    "Front-End/Vite/使用.md",
+    "Front-End/Npm/使用.md",
+    "Front-End/Frame-CSS/Tailwindcss/Vue2 +Tailwindcss.md",
+    "Front-End/VUE/未命名.md",
+    "Front-End/前端工程化/ES6.md",
+    "Linux/解压缩/Zip.md",
+    "Welcome.md"
+  ]
+}
