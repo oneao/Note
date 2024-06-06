@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/解压缩/Zip.md",
+                "file": "Back-End/GoLang/安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/解压缩/Zip.md",
+                "file": "Back-End/GoLang/安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/解压缩/Zip.md",
+                "file": "Back-End/GoLang/安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/解压缩/Zip.md"
+                "file": "Back-End/GoLang/安装.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "092f59cf4d88db50",
   "lastOpenFiles": [
+    "().md",
+    "Back-End/GoLang/安装.md",
+    "Linux/解压缩/Zip.md",
     "Front-End/Nvm/Linux安装NVM.md",
     "Front-End/Npm/使用.md",
     "Linux/Kali/开启蓝牙服务.md",
@@ -184,7 +187,6 @@
     "Frame-Study/SoybeanAdmin",
     "Frame-Study",
     "Docker/Docker/安装/Linux安装Docker.md",
-    "Back-End/GoLang/安装.md",
     "Soft-Tools",
     "Back-End/Java/安装/Linux安装Jdk.md",
     "Front-End/Es6/使用.md",
@@ -192,7 +194,6 @@
     "Front-End/Frame-CSS/Tailwindcss/Vue2 +Tailwindcss.md",
     "Front-End/VUE/未命名.md",
     "Front-End/前端工程化/ES6.md",
-    "Linux/解压缩/Zip.md",
     "Welcome.md"
   ]
 }
