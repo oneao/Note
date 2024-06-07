@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
+                "file": "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
+                "file": "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
+                "file": "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md"
+                "file": "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/未命名.md"
               }
             }
           }
@@ -162,9 +162,11 @@
   },
   "active": "b094bae0fa1deabe",
   "lastOpenFiles": [
+    "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
+    "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/未命名.md",
+    "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型",
     "Project-Study/Soybean-Admin/对接后端.md",
     "Project-Study/Soybean-Admin/请求 Request.md",
-    "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
     "Project-Study/Soybean-Admin/具体文件 src/后端服务 service/request/未命名",
     "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求",
     "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务",
@@ -194,9 +196,7 @@
     "Docker/MySQL/Docker导出MySQL数据.md",
     "obsidian-git-2.24.2/styles.css",
     "obsidian-git-2.24.2/manifest.json",
-    "obsidian-git-2.24.2/main.js",
     "Docker/Docker/安装/Linux安装Docker.md",
-    "Back-End/Java/安装/Linux安装Jdk.md",
-    "Front-End/Es6/使用.md"
+    "Back-End/Java/安装/Linux安装Jdk.md"
   ]
 }
