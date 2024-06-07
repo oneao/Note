@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Back-End/GoLang/使用Goland创建项目.md",
+                "file": "Project-Study/Soybean-Admin/安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Back-End/GoLang/使用Goland创建项目.md",
+                "file": "Project-Study/Soybean-Admin/安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Back-End/GoLang/使用Goland创建项目.md",
+                "file": "Project-Study/Soybean-Admin/安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Back-End/GoLang/使用Goland创建项目.md"
+                "file": "Project-Study/Soybean-Admin/安装.md"
               }
             }
           }
@@ -162,8 +162,11 @@
   },
   "active": "b094bae0fa1deabe",
   "lastOpenFiles": [
-    "Docker/Docker/安装.md",
     "Back-End/GoLang/使用Goland创建项目.md",
+    "Project-Study/Soybean-Admin/安装.md",
+    "Project-Study/Soybean-Admin",
+    "Project-Study",
+    "Docker/Docker/安装.md",
     "Back-End/GoLang/安装.md",
     "().md",
     "Linux/解压缩/Zip.md",
@@ -187,9 +190,7 @@
     "push.sh",
     "Obsidian",
     "Frame-Study/SoybeanAdmin",
-    "Frame-Study",
     "Docker/Docker/安装/Linux安装Docker.md",
-    "Soft-Tools",
     "Back-End/Java/安装/Linux安装Jdk.md",
     "Front-End/Es6/使用.md",
     "Front-End/Vite/使用.md",
