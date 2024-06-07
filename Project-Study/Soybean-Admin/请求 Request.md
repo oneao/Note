@@ -75,7 +75,48 @@ const { baseURL, otherBaseURL } = getServiceBaseURL(import.meta.env, isHttpProxy
 > `getServiceBaseURL` 方法用于获取请求的基础路径，根据环境变量 `import.meta.env` 和 `isHttpProxy` 判断是否使用代理。
 
 
-## 请求示例
+### 请求示例
 > [!NOTE] 文件位置
 > /src/service/request/index.ts
 
+### 使用请求实例（创建请求）
+
+```ts
+/**
+ * 登录
+ *
+ * @param loginRes 登录参数
+ */
+export function fetchLogin(loginRes: Api.Auth.LoginReq) {
+  return request<Api.Auth.LoginToken>({
+    url: '/auth/accounts/login',
+    method: 'post',
+    data: loginRes
+  });
+}
+```
+
+> loginRes: Api.Auth.LoginReq：参数类型
+> Api.Auth.LoginToken：返回值类型
+
+
+- 如果 request 函数是通过 `createFlatRequest` （==目前使用==）创建的，请求成功后的数据类型会被包装在一个对象中，可以通过 `data` 字段获取。
+```ts
+async function login() {
+  const { error, data } = await fetchLogin({ username: 'admin', password: 'admin' });
+
+  if(!error) {
+    // 请求成功
+  }
+}
+```
+- 如果 request 函数是通过 `createRequest` 创建的，请求成功后的数据类型会直接返回，不会被包装在对象中。
+```ts
+async function login() {
+  const data = await fetchLogin({ username: 'admin', password: 'admin' });
+
+  if(data) {
+    // 请求成功
+  }
+}
+```
