@@ -74,3 +74,8 @@ const { baseURL, otherBaseURL } = getServiceBaseURL(import.meta.env, isHttpProxy
 
 > `getServiceBaseURL` 方法用于获取请求的基础路径，根据环境变量 `import.meta.env` 和 `isHttpProxy` 判断是否使用代理。
 
+
+## 请求示例
+> [!NOTE] 文件位置
+> /src/service/request/index.ts
+
