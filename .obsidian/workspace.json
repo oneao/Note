@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front-End/Nvm/常用命令.md",
+                "file": "Project-Study/Soybean-Admin/系统图标.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front-End/Nvm/常用命令.md",
+                "file": "Project-Study/Soybean-Admin/系统图标.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front-End/Nvm/常用命令.md",
+                "file": "Project-Study/Soybean-Admin/系统图标.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front-End/Nvm/常用命令.md"
+                "file": "Project-Study/Soybean-Admin/系统图标.md"
               }
             }
           }
@@ -162,9 +162,11 @@
   },
   "active": "b094bae0fa1deabe",
   "lastOpenFiles": [
-    "Front-End/Nvm/Linux安装NVM.md",
-    "Front-End/Nvm/常用命令.md",
     "Project-Study/Soybean-Admin/安装.md",
+    "Project-Study/Soybean-Admin/系统图标.md",
+    "Project-Study/Soybean-Admin/未命名",
+    "Front-End/Nvm/常用命令.md",
+    "Front-End/Nvm/Linux安装NVM.md",
     "Back-End/GoLang/使用Goland创建项目.md",
     "Project-Study/Soybean-Admin",
     "Project-Study",
@@ -190,13 +192,11 @@
     "obsidian-git-2.24.2",
     "push.sh",
     "Obsidian",
-    "Frame-Study/SoybeanAdmin",
     "Docker/Docker/安装/Linux安装Docker.md",
     "Back-End/Java/安装/Linux安装Jdk.md",
     "Front-End/Es6/使用.md",
     "Front-End/Vite/使用.md",
     "Front-End/Frame-CSS/Tailwindcss/Vue2 +Tailwindcss.md",
-    "Front-End/VUE/未命名.md",
-    "Front-End/前端工程化/ES6.md"
+    "Front-End/VUE/未命名.md"
   ]
 }
