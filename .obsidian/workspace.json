@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker/安装.md",
+                "file": "Back-End/GoLang/使用Goland创建项目.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Back-End/GoLang/安装.md",
+                "file": "Back-End/GoLang/使用Goland创建项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Back-End/GoLang/安装.md",
+                "file": "Back-End/GoLang/使用Goland创建项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Back-End/GoLang/安装.md"
+                "file": "Back-End/GoLang/使用Goland创建项目.md"
               }
             }
           }
@@ -159,10 +160,12 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "092f59cf4d88db50",
+  "active": "b094bae0fa1deabe",
   "lastOpenFiles": [
-    "().md",
+    "Docker/Docker/安装.md",
+    "Back-End/GoLang/使用Goland创建项目.md",
     "Back-End/GoLang/安装.md",
+    "().md",
     "Linux/解压缩/Zip.md",
     "Front-End/Nvm/Linux安装NVM.md",
     "Front-End/Npm/使用.md",
@@ -173,7 +176,6 @@
     "Obsidian/插件.md",
     "Docker/Redis/Docker安装Redis.md",
     "Docker/MySQL/Docker安装MySQL.md",
-    "Docker/Docker/安装.md",
     "Maven/安装/Linux安装Maven.md",
     "Linux/VMware安装和使用.md",
     "Linux/VMware",
