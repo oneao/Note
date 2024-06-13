@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Linux/解压缩/Zip.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Linux/解压缩/Zip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Linux/解压缩/Zip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/插件.md"
+                "file": "Linux/解压缩/Zip.md"
               }
             }
           }
@@ -174,8 +174,11 @@
   },
   "active": "5c89bca8b03523ff",
   "lastOpenFiles": [
-    "Maven/Untitled.loom",
+    "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
     "Obsidian/插件.md",
+    "Project-Study/项目开发/Spring Boot后端项目搭建",
+    "Project-Study/项目开发",
+    "Maven/Untitled.loom",
     "Linux/Kali/开启蓝牙服务.md",
     "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
     "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/app.d.ts 文件.md",
@@ -205,9 +208,7 @@
     "Docker/MySQL/Docker安装MySQL.md",
     "Maven/安装/Linux安装Maven.md",
     "Linux/VMware安装和使用.md",
-    "Linux/VMware",
     "Docker/MySQL/Docker导出MySQL数据.md",
-    "obsidian-git-2.24.2/styles.css",
     "Docker/Docker/安装/Linux安装Docker.md"
   ]
 }
