@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/解压缩/Zip.md",
+                "file": "Obsidian/插件.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/解压缩/Zip.md",
+                "file": "Obsidian/插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/解压缩/Zip.md",
+                "file": "Obsidian/插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/解压缩/Zip.md"
+                "file": "Obsidian/插件.md"
               }
             }
           }
@@ -174,6 +174,7 @@
   },
   "active": "5c89bca8b03523ff",
   "lastOpenFiles": [
+    "Linux/解压缩/Zip.md",
     "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
     "Obsidian/插件.md",
     "Project-Study/项目开发/Spring Boot后端项目搭建",
@@ -199,7 +200,6 @@
     "Docker/Docker/安装.md",
     "Back-End/GoLang/安装.md",
     "().md",
-    "Linux/解压缩/Zip.md",
     "Front-End/Npm/使用.md",
     "Back-End/Java/安装.md",
     "Soft-Tools/JetBrains系列.md",
