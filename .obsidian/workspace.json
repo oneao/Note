@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 254.5
   },
   "right": {
     "id": "fbf5c8ce336e2942",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/插件.md"
+                "file": "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md"
               }
             }
           }
@@ -174,9 +174,9 @@
   },
   "active": "5c89bca8b03523ff",
   "lastOpenFiles": [
+    "Obsidian/插件.md",
     "Linux/解压缩/Zip.md",
     "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
-    "Obsidian/插件.md",
     "Project-Study/项目开发/Spring Boot后端项目搭建",
     "Project-Study/项目开发",
     "Maven/Untitled.loom",
