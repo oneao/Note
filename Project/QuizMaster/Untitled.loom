@@ -1,0 +1,108 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "f9d48d91-14e9-4e3a-8bdc-bb0799db58e4",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "测试",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "b5c8b497-bb49-436c-9052-dcea9b0d16a7",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "New Column",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "4775683f-bee2-4765-922c-0710e40e52e3",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-06-15T14:10:18.278Z",
+        "lastEditedDateTime": "2024-06-15T14:10:18.278Z",
+        "cells": [
+          {
+            "id": "2e57de10-4156-45e2-a332-b739a977dcfc",
+            "columnId": "f9d48d91-14e9-4e3a-8bdc-bb0799db58e4",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "507748a4-ef2d-4472-bd0e-aeb3703495a0",
+            "columnId": "b5c8b497-bb49-436c-9052-dcea9b0d16a7",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "a7a68979-c129-4384-b776-62da30e3251c",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-06-15T14:10:22.319Z",
+        "lastEditedDateTime": "2024-06-15T14:10:24.557Z",
+        "cells": [
+          {
+            "id": "d4a126c2-b354-420f-a080-87e2a994fe77",
+            "columnId": "f9d48d91-14e9-4e3a-8bdc-bb0799db58e4",
+            "content": "测试",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1f6d8df8-7be8-4b6b-8e91-89dd77218138",
+            "columnId": "b5c8b497-bb49-436c-9052-dcea9b0d16a7",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.0"
+}

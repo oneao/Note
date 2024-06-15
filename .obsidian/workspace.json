@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d493cdab2bc6c74",
+            "type": "leaf",
+            "state": {
+              "type": "dataloom",
+              "state": {
+                "file": "Project/QuizMaster/Untitled.loom"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Project/QuizMaster/Untitled.loom",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/插件.md",
+                "file": "Project/QuizMaster/Untitled.loom",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/插件.md"
+                "file": "Project/QuizMaster/Untitled.loom"
               }
             }
           }
@@ -172,14 +182,15 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "5c89bca8b03523ff",
+  "active": "9d493cdab2bc6c74",
   "lastOpenFiles": [
+    "Obsidian/插件.md",
+    "Project/QuizMaster/Untitled.loom",
     "Project/QuizMaster/项目搭建.md",
     "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
     "Project/未命名.md",
     "Project/QuizMaster",
     "Project",
-    "Obsidian/插件.md",
     "Linux/解压缩/Zip.md",
     "Project-Study/项目开发/Spring Boot后端项目搭建",
     "Project-Study/项目开发",
@@ -193,7 +204,6 @@
     "Project-Study/Soybean-Admin/具体文件 src/后端服务 service/request/未命名",
     "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求",
     "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务",
-    "Project-Study/Soybean-Admin/src 根文件夹",
     "Project-Study/Soybean-Admin/系统图标.md",
     "Project-Study/Soybean-Admin/安装.md",
     "Front-End/Nvm/常用命令.md",
@@ -208,7 +218,6 @@
     "Soft-Tools/Copilot.md",
     "Docker/Redis/Docker安装Redis.md",
     "Docker/MySQL/Docker安装MySQL.md",
-    "Maven/安装/Linux安装Maven.md",
-    "Linux/VMware安装和使用.md"
+    "Maven/安装/Linux安装Maven.md"
   ]
 }
