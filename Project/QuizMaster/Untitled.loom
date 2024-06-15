@@ -96,7 +96,17 @@
         ]
       }
     ],
-    "filters": [],
+    "filters": [
+      {
+        "id": "6ef836e0-9c4c-4247-9ed3-fbe6e6525639",
+        "columnId": "f9d48d91-14e9-4e3a-8bdc-bb0799db58e4",
+        "operator": "or",
+        "isEnabled": true,
+        "type": "text",
+        "condition": "is",
+        "text": ""
+      }
+    ],
     "sources": [],
     "settings": {
       "numFrozenColumns": 1,
