@@ -68,7 +68,13 @@
         "hour12": true,
         "includeTime": false,
         "shouldWrapOverflow": true,
-        "tags": [],
+        "tags": [
+          {
+            "id": "6385782c-41fc-4e9b-8dd9-897625dad803",
+            "content": "cess",
+            "color": "light gray"
+          }
+        ],
         "calculationType": "none",
         "aspectRatio": "unset",
         "horizontalPadding": "unset",
@@ -83,7 +89,7 @@
         "index": 0,
         "sourceId": null,
         "creationDateTime": "2024-06-15T14:24:37.640Z",
-        "lastEditedDateTime": "2024-06-15T14:28:42.070Z",
+        "lastEditedDateTime": "2024-06-16T02:40:13.989Z",
         "cells": [
           {
             "id": "27eeed8b-3ea4-4037-b8a0-8f7f2f3bae3d",
