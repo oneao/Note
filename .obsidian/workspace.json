@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/QuizMaster/项目搭建.md",
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
+                "file": "电子病历编辑器/X-Emr.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,8 +196,9 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "5a17e23266dd8743",
+  "active": "9d493cdab2bc6c74",
   "lastOpenFiles": [
+    "电子病历编辑器/X-Emr.md",
     "Project/QuizMaster/项目搭建.md",
     "电子病历编辑器/SoDiaoEditor-Vue.md",
     "电子病历编辑器",
@@ -238,7 +239,6 @@
     "Back-End/GoLang/安装.md",
     "().md",
     "Back-End/Java/安装.md",
-    "Soft-Tools/JetBrains系列.md",
-    "Soft-Tools/Copilot.md"
+    "Soft-Tools/JetBrains系列.md"
   ]
 }
