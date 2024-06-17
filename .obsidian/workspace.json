@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/QuizMaster/项目搭建.md",
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/QuizMaster/项目搭建.md",
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/QuizMaster/项目搭建.md",
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/QuizMaster/项目搭建.md"
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md"
               }
             }
           }
@@ -198,8 +198,15 @@
   },
   "active": "5a17e23266dd8743",
   "lastOpenFiles": [
-    "Linux/解压缩/Zip.md",
     "Project/QuizMaster/项目搭建.md",
+    "电子病历编辑器/SoDiaoEditor-Vue.md",
+    "电子病历编辑器",
+    "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
+    "Front-End/Frame-CSS/Tailwindcss/Vue2 +Tailwindcss.md",
+    "Front-End/Npm/使用.md",
+    "Front-End/Nvm/常用命令.md",
+    "Front-End/Vite/使用.md",
+    "Linux/解压缩/Zip.md",
     "Project/QuizMaster/Image/5.png",
     "Project/QuizMaster/Image/4.png",
     "Project/QuizMaster/Image/3.png",
@@ -213,13 +220,11 @@
     "Untitled.loom",
     "Obsidian/操作.md",
     "Project/QuizMaster/Untitled.loom",
-    "Project-Study/项目开发/Spring Boot后端项目搭建/创建多模块项目.md",
     "Project/未命名.md",
     "Project/QuizMaster",
     "Project",
     "Project-Study/项目开发/Spring Boot后端项目搭建",
     "Project-Study/项目开发",
-    "Maven/Untitled.loom",
     "Linux/Kali/开启蓝牙服务.md",
     "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
     "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/app.d.ts 文件.md",
@@ -227,17 +232,13 @@
     "Project-Study/Soybean-Admin/请求 Request.md",
     "Project-Study/Soybean-Admin/系统图标.md",
     "Project-Study/Soybean-Admin/安装.md",
-    "Front-End/Nvm/常用命令.md",
     "Front-End/Nvm/Linux安装NVM.md",
     "Back-End/GoLang/使用Goland创建项目.md",
     "Docker/Docker/安装.md",
     "Back-End/GoLang/安装.md",
     "().md",
-    "Front-End/Npm/使用.md",
     "Back-End/Java/安装.md",
     "Soft-Tools/JetBrains系列.md",
-    "Soft-Tools/Copilot.md",
-    "Docker/Redis/Docker安装Redis.md",
-    "Docker/MySQL/Docker安装MySQL.md"
+    "Soft-Tools/Copilot.md"
   ]
 }
