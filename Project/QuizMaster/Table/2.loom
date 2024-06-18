@@ -1,0 +1,425 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "注解",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "48777d37-d495-419f-a9b6-39f79e93250a",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "356px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "字段类型",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "641px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "说明",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "7a5aa4bc-c0f0-4569-999c-bac4139e0c76",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:01:44.131Z",
+        "lastEditedDateTime": "2024-06-18T14:03:21.004Z",
+        "cells": [
+          {
+            "id": "54665ba0-9a68-4b0b-baab-e7f16c8577c9",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Null",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7dcf9405-f79d-4b8d-95e8-7c4132f35acd",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "hasValidFrontmatter": null,
+            "content": "任意类型"
+          },
+          {
+            "id": "d15d7522-bb9b-4845-97e5-39becbe4f050",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值为null",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "6fd53ec6-53a8-4cf5-84cd-33d8d4cb42be",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:03:47.797Z",
+        "lastEditedDateTime": "2024-06-18T14:05:15.397Z",
+        "cells": [
+          {
+            "id": "b25c0942-9e07-4adc-abd1-7b5412b4c86b",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@NotNull",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "94e50834-3217-4af9-80db-8549daddee89",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "hasValidFrontmatter": null,
+            "content": "任意类型"
+          },
+          {
+            "id": "ca2b2d5f-47b8-4292-8c06-808f1c8b0ed2",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值不为null，无法验证空字符串",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "4140a6bd-b884-483f-82d8-1592ff5ac66a",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:05:32.695Z",
+        "lastEditedDateTime": "2024-06-18T14:07:21.460Z",
+        "cells": [
+          {
+            "id": "23f4859a-4b46-4e43-94ae-31b4e1039f94",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@NotBlank",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "268961ba-cd35-4db7-8075-83615429808b",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "CharSequence子类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b9a7cbf4-4656-4a2e-87b3-f887e9fe02c6",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值不为空（不为null且不为空字符串）",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "f7359710-93b0-4fc4-b299-2e69c4cb8e04",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:07:22.831Z",
+        "lastEditedDateTime": "2024-06-18T14:09:15.317Z",
+        "cells": [
+          {
+            "id": "f79d6fc3-c248-49bf-b709-39c44e905373",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@NotEmpty",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9de93ad7-859a-4b9d-9167-ebc46a5ae842",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "CharSequence子类型、Collection、Map、数组",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d041ca9d-bd78-4dba-8430-2025a8f92380",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值不为null且不为空（字符串长度、集合长度不为0）",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "45cb4338-04e4-41d4-b336-9aa76e18d023",
+        "index": 4,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:08:24.421Z",
+        "lastEditedDateTime": "2024-06-18T14:10:50.073Z",
+        "cells": [
+          {
+            "id": "e749370e-1056-4c41-a790-935a8514b421",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Min",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "52ec5b88-69f5-454e-a1fe-9f0ca77a5f0f",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "任何Number类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e9a40005-4cc3-4611-959a-1d105e012d8e",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值大于等于@Min指定的值",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "adaf4e19-73ff-408f-926f-d560b8a2bd10",
+        "index": 5,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:09:23.057Z",
+        "lastEditedDateTime": "2024-06-18T14:10:58.912Z",
+        "cells": [
+          {
+            "id": "f89c881d-39d7-4ad9-9087-2d0cd0f0909a",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Max",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "747c40d9-a699-4905-a267-7e208664e26c",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "任何Number类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9a7ea674-f3d8-4ee7-8398-cd9db0e12baf",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值小于等于@Min指定的值",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "1cf0151c-5fc3-421b-aa03-caf2d7366c18",
+        "index": 6,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:09:24.043Z",
+        "lastEditedDateTime": "2024-06-18T14:11:14.489Z",
+        "cells": [
+          {
+            "id": "acdf90ed-c5b9-4349-9699-9d5558ef855e",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Digits",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a6007f29-3b75-4ee8-9ed2-8a26b3926652",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "任何Number类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "542911d5-eec7-409f-85f1-5d5b97166d6a",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值的整数位数和小数位数上限",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "097738fd-dc50-48d9-9085-c2aeb4aea041",
+        "index": 7,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:09:24.682Z",
+        "lastEditedDateTime": "2024-06-18T14:11:55.990Z",
+        "cells": [
+          {
+            "id": "e5bf4fac-5c1a-4f58-80cd-9f8aa881ce00",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Size",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a8e31384-c6b6-40fa-ba0a-14209163a680",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "字符串、Collection、Map、数组等",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b5a14cdb-2494-44e8-9bce-2eafa94a4bd0",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值在指定区间之间，如字符长度、集合大小",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "bc8c82d9-1f93-488c-9d44-92910a12337a",
+        "index": 8,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:09:40.859Z",
+        "lastEditedDateTime": "2024-06-18T14:13:01.949Z",
+        "cells": [
+          {
+            "id": "cacace44-7c69-4651-899c-c3656e4547c0",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Range",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "55b3f382-24a3-4b75-ad4a-648c0b9c7e9b",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "数值类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "c7065026-4a45-4213-87be-e58337371233",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值在最小值和最大值之间",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "d9770d01-1a1a-4535-99e7-96a77f571eb8",
+        "index": 9,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:09:47.562Z",
+        "lastEditedDateTime": "2024-06-18T14:13:17.923Z",
+        "cells": [
+          {
+            "id": "92c9ca09-4a50-4b7c-a4cd-3b991b954e54",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Email",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1cfb2631-b7d5-4eb4-9187-da44aa950b67",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "CharSequence子类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4be57bf6-1644-4f47-91d1-dc288afb2a8b",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值是否是电子邮件格式",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "cc4200db-4081-428a-b798-284b7f714c75",
+        "index": 10,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:09:53.562Z",
+        "lastEditedDateTime": "2024-06-18T14:13:37.038Z",
+        "cells": [
+          {
+            "id": "1b3b96b2-0267-4e8c-880d-f622e48fb561",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Pattern",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7e93f8ba-82f0-417c-ae4e-a5c5b7fc86ad",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "CharSequence子类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e4789a5b-7789-4f77-813a-765fabb6c09d",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "验证元素值是否与指定的正则表达式匹配",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "ef63e243-f872-4ad5-91b5-8cc7a2c05821",
+        "index": 11,
+        "sourceId": null,
+        "creationDateTime": "2024-06-18T14:10:02.394Z",
+        "lastEditedDateTime": "2024-06-18T14:13:49.487Z",
+        "cells": [
+          {
+            "id": "0d7e127d-1b0f-413f-843c-8959763e142d",
+            "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+            "content": "@Valid",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "bde9217e-83d9-4926-a497-327576efaf2f",
+            "columnId": "48777d37-d495-419f-a9b6-39f79e93250a",
+            "content": "任何非原子类型",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7685af62-e225-4583-9164-e43fea5fde65",
+            "columnId": "d498a763-8eef-4a3f-9aa6-b59c54b06385",
+            "content": "指定递归验证关联的对象",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [
+      {
+        "id": "790f3954-d90e-4785-8ee8-636a8e3387c7",
+        "columnId": "1bba48e0-b0ef-48ab-bb43-9d204470490e",
+        "operator": "or",
+        "isEnabled": true,
+        "type": "text",
+        "condition": "is",
+        "text": ""
+      }
+    ],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": false
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.0"
+}

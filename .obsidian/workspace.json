@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
+                "file": "Project/QuizMaster/项目搭建.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
+                "file": "Project/QuizMaster/项目搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
+                "file": "Project/QuizMaster/项目搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md"
+                "file": "Project/QuizMaster/项目搭建.md"
               }
             }
           }
@@ -198,7 +198,10 @@
   },
   "active": "9d493cdab2bc6c74",
   "lastOpenFiles": [
+    "Project/QuizMaster/Table/2.loom",
     "Project/QuizMaster/项目搭建.md",
+    "Obsidian/操作.md",
+    "Obsidian/插件.md",
     "电子病历编辑器/SoDiaoEditor-Vue.md",
     "电子病历编辑器/X-Emr.md",
     "电子病历编辑器",
@@ -217,9 +220,6 @@
     "Project/QuizMaster/Image",
     "Project/QuizMaster/Table/1.loom",
     "Project/QuizMaster/Table",
-    "Obsidian/插件.md",
-    "Untitled.loom",
-    "Obsidian/操作.md",
     "Project/QuizMaster/Untitled.loom",
     "Project/未命名.md",
     "Project/QuizMaster",
@@ -238,7 +238,6 @@
     "Docker/Docker/安装.md",
     "Back-End/GoLang/安装.md",
     "().md",
-    "Back-End/Java/安装.md",
-    "Soft-Tools/JetBrains系列.md"
+    "Back-End/Java/安装.md"
   ]
 }

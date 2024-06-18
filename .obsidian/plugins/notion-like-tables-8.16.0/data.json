@@ -8,6 +8,6 @@
   "hasMigratedTo800": true,
   "showWelcomeModal": false,
   "showWhatsNewModal": true,
-  "defaultFrozenColumnCount": 1,
+  "defaultFrozenColumnCount": 3,
   "pluginVersion": "8.16.0"
 }
