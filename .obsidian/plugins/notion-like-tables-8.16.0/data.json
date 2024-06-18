@@ -4,10 +4,10 @@
   "customFolderForNewFiles": "",
   "removeMarkdownOnExport": false,
   "defaultEmbedWidth": "100%",
-  "defaultEmbedHeight": "340px",
+  "defaultEmbedHeight": "30%",
   "hasMigratedTo800": true,
   "showWelcomeModal": false,
   "showWhatsNewModal": true,
-  "defaultFrozenColumnCount": 3,
+  "defaultFrozenColumnCount": 1,
   "pluginVersion": "8.16.0"
 }
