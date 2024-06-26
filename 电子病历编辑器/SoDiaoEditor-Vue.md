@@ -1,16 +1,24 @@
 Vue2版本
 github地址：https://github.com/tlzzu/SoDiaoEditor-Vue.git（该版本编辑器核心内容部分未开源）
 
-Vue3版本尚未开源代码
+Vue3版本尚未开源代码.
 
-## 集成
+# 集成
+## 文件介绍
+`data`目录：存放下拉框、单选框等数据。（可不设置该文件）
+`dialogs`目录：用于存放`日期选择框`、`下拉框`等`html`代码，可根据已有的代码进行扩展。（**关键**）
+`doc`目录：存放一些与该编辑器相关的配置信息介绍的`md`格式文档。（**关键，可参考这些文档进行配置**）
+`js`目录：存放编辑器等的源代码。
+`ueditor`目录：该病历编辑器就是基于`ueditor` 编辑器进行开发的，存放一些关于`ueditor`编辑器相关的，包含部分功能源码，例如：地图、链接等功能。
+
+
 `SdeEditor`组件内容如下：==待做==
 
 # 存在问题
 ## 1. 本地环境下无法访问public里的静态文件
 
 ### 方法1（已尝试）
-1、修改 `根目录/build/plugin/index.ts`，注释掉：`vitePlugins.push(configHtmlPlugin(viteEnv, isBuild));` 这一行。
+1、修改`根目录/build/plugin/index.ts`，注释掉：`vitePlugins.push(configHtmlPlugin(viteEnv, isBuild));` 这一行。
 2、修改`根目录/index.html`文件，注释掉：`<title><%= title %></title>`
 
 ### 方法2（未尝试）
