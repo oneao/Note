@@ -16,7 +16,8 @@ Vue3版本尚未开源代码.
 如果修改sdeEditor文件夹的位置，同时也需要更改该文件中的`URL`.
 
 ## `SdeEditor`组件
-配置信息都在：`sde.value = new SDE`中
+配置信息都在：`sde.value = new SDE`中。
+如果不需要某个功能，不在`toolbars`中填写就行。
 
 # 存在问题
 ## 1. 本地环境下无法访问public里的静态文件
