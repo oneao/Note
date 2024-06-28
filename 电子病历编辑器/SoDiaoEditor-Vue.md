@@ -23,7 +23,7 @@ Vue3版本尚未开源代码.
 ## 1. 本地环境下无法访问public里的静态文件
 
 ### 方法1（已尝试）
-1、修改`根目录/build/plugin/index.ts`，注释掉：`vitePlugins.push(configHtmlPlugin(viteEnv, isBuild));` 这一行。
+1、修改`根目录/build/vite/plugin/index.ts`，注释掉：`vitePlugins.push(configHtmlPlugin(viteEnv, isBuild));` 这一行。
 2、修改`根目录/index.html`文件，注释掉：`<title><%= title %></title>`
 
 ### 方法2（未尝试）
