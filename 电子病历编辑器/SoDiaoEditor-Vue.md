@@ -46,6 +46,105 @@ Vue3版本尚未开源代码.
 # 注意
 ## 1.使用组件库无效
 ## 2.使用日期控件必须设置默认值
+## 3.控件填过内容的变化
+```html
+===原始内容（未填写/选择）==============
+<p>标签控件：
+   <span class="sde-ctrl sde-label" id="BiaoQian" sde-type="label" title="" style="background-color: rgb(188, 255, 127);" sde-model="%7B%22desc%22%3A%22%22%7D">标签内容</span>
+</p>
+<p>单行文本：
+   <span class="sde-ctrl" contenteditable="false" id="DanHangWenBen" sde-type="text" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%8D%95%E8%A1%8C%E6%96%87%E6%9C%AC%E5%86%85%E5%AE%B9%22%2C%22required%22%3A0%2C%22strictverify%22%3A0%2C%22notdel%22%3A0%2C%22verify%22%3A%22%5E%5B0-9%5D*%24%22%2C%22mode%22%3A%22EDITOR%22%7D">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="单行文本内容">单行文本内容</span>
+   </span>
+</p>
+<p>下拉选择（单选）：
+   <span class="sde-ctrl" contenteditable="false" id="SelectOne" sde-type="select" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%8D%95%E9%80%89%22%2C%22required%22%3A0%2C%22multi%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Apple%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22Orange%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%223%22%2C%22label%22%3A%22Banana%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="[{&quot;value&quot;:&quot;0&quot;,&quot;label&quot;:&quot;Apple&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;1&quot;,&quot;label&quot;:&quot;Orange&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;3&quot;,&quot;label&quot;:&quot;Banana&quot;,&quot;selected&quot;:0}]" sde-updatetime="2024-06-28T15:38:32.538Z">
+      <span class="sde-value sde-select" contenteditable="true" sde-left="[" sde-right="]" title="单选">单选</span>
+   </span>
+</p>
+<p>下拉选择（多选）：
+   <span class="sde-ctrl" contenteditable="false" id="SelectMore" sde-type="select" sde-right="." sde-model="%7B%22desc%22%3A%22%E4%B8%8B%E6%8B%89%E5%A4%9A%E9%80%89%22%2C%22required%22%3A0%2C%22multi%22%3A1%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%221%22%2C%22label%22%3A%22Apple%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%220%22%2C%22label%22%3A%22Orange%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%222%22%2C%22label%22%3A%22Banana%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="[{&quot;value&quot;:&quot;1&quot;,&quot;label&quot;:&quot;Apple&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;0&quot;,&quot;label&quot;:&quot;Orange&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;2&quot;,&quot;label&quot;:&quot;Banana&quot;,&quot;selected&quot;:0}]" sde-updatetime="2024-06-28T15:39:49.431Z">
+      <span class="sde-value sde-select" contenteditable="true" sde-left="[" sde-right="]" title="下拉多选">下拉多选</span>
+   </span>
+</p>
+<p>日期控件：
+   <span class="sde-ctrl" contenteditable="false" id="RiQi" sde-type="date" sde-right="." sde-model="%7B%22desc%22%3A%22%E6%97%A5%E6%9C%9F%E5%86%85%E5%AE%B9%22%2C%22required%22%3A0%2C%22strictverify%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22min%22%3A%22%22%2C%22max%22%3A%22%22%2C%22format%22%3A%22%7Byyyy%7D-%7BMM%7D-%7Bdd%7D%20%7Bhh%7D%3A%7Bmm%7D%3A%7Bss%7D%22%2C%22defvalue%22%3A%222024-06-28%2012%3A00%3A00%22%7D">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="日期内容">日期内容</span>
+   </span>
+</p>
+<p>单选框：
+   <span class="sde-ctrl" contenteditable="false" id="DanXuan" sde-type="radio" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%8D%95%E9%80%89%E6%A1%86%22%2C%22required%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%5D" sde-updatetime="2024-06-28T15:40:43.126Z" sde-value="">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="单选框">
+         <label contenteditable="false">
+            <input name="radio_d8358629" type="radio" value="%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D">Game</label>
+         <label contenteditable="false">
+            <input name="radio_d8358629" type="radio" value="%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D">游戏</label>
+      </span>
+   </span>
+</p>
+<p>多选框：
+   <span class="sde-ctrl" contenteditable="false" id="Checkbox" sde-type="checkbox" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%A4%9A%E9%80%89%E6%A1%86%22%2C%22required%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%222%22%2C%22label%22%3A%22%E5%85%B6%E4%BB%96%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%222%22%2C%22label%22%3A%22%E5%85%B6%E4%BB%96%22%2C%22selected%22%3A0%7D%5D" sde-updatetime="2024-06-28T15:41:17.509Z" sde-value="">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="多选框">
+         <label contenteditable="false">
+            <input type="checkbox" value="%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D">Game</label>
+         <label contenteditable="false">
+            <input type="checkbox" value="%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D">游戏</label>
+         <label contenteditable="false">
+            <input type="checkbox" value="%7B%22value%22%3A%222%22%2C%22label%22%3A%22%E5%85%B6%E4%BB%96%22%2C%22selected%22%3A0%7D">其他</label>
+      </span>
+   </span>
+</p>
+
+== 更新后的（已填写/选择） =======
+<p>标签控件：
+   <span class="sde-ctrl sde-label" id="BiaoQian" sde-type="label" title="标签内容" style="background-color: rgb(188, 255, 127);" sde-model="%7B%22desc%22%3A%22%E6%A0%87%E7%AD%BE%E5%86%85%E5%AE%B9%22%7D">标签内容</span>
+</p>
+<p>单行文本：
+   <span class="sde-ctrl" contenteditable="false" id="DanHangWenBen" sde-type="text" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%8D%95%E8%A1%8C%E6%96%87%E6%9C%AC%E5%86%85%E5%AE%B9%22%2C%22required%22%3A0%2C%22strictverify%22%3A0%2C%22notdel%22%3A0%2C%22verify%22%3A%22%5E%5B0-9%5D*%24%22%2C%22mode%22%3A%22EDITOR%22%7D">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="单行文本内容" _backups="717">7174</span>
+   </span>
+</p>
+<p>下拉选择（单选）：
+   <span class="sde-ctrl" contenteditable="false" id="SelectOne" sde-type="select" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%8D%95%E9%80%89%22%2C%22required%22%3A0%2C%22multi%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Apple%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22Orange%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%223%22%2C%22label%22%3A%22Banana%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="[{&quot;value&quot;:&quot;0&quot;,&quot;label&quot;:&quot;Apple&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;1&quot;,&quot;label&quot;:&quot;Orange&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;3&quot;,&quot;label&quot;:&quot;Banana&quot;,&quot;selected&quot;:0}]" sde-updatetime="2024-06-28T15:38:32.538Z" sde-value="[{&quot;value&quot;:&quot;1&quot;,&quot;label&quot;:&quot;Orange&quot;,&quot;selected&quot;:0}]">
+      <span class="sde-value sde-select" contenteditable="true" sde-left="[" sde-right="]" title="单选">Orange</span>
+   </span>
+</p>
+<p>下拉选择（多选）：
+   <span class="sde-ctrl" contenteditable="false" id="SelectMore" sde-type="select" sde-right="." sde-model="%7B%22desc%22%3A%22%E4%B8%8B%E6%8B%89%E5%A4%9A%E9%80%89%22%2C%22required%22%3A0%2C%22multi%22%3A1%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%221%22%2C%22label%22%3A%22Apple%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%220%22%2C%22label%22%3A%22Orange%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%222%22%2C%22label%22%3A%22Banana%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="[{&quot;value&quot;:&quot;1&quot;,&quot;label&quot;:&quot;Apple&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;0&quot;,&quot;label&quot;:&quot;Orange&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;2&quot;,&quot;label&quot;:&quot;Banana&quot;,&quot;selected&quot;:0}]" sde-updatetime="2024-06-28T15:39:49.431Z" sde-value="[{&quot;value&quot;:&quot;0&quot;,&quot;label&quot;:&quot;Orange&quot;,&quot;selected&quot;:0},{&quot;value&quot;:&quot;2&quot;,&quot;label&quot;:&quot;Banana&quot;,&quot;selected&quot;:0}]">
+      <span class="sde-value sde-select" contenteditable="true" sde-left="[" sde-right="]" title="下拉多选">
+         <span class="sde-val-item" sde-value="0">Orange</span>
+         <span class="sde-val-item" sde-value="2">Banana</span>
+      </span>
+   </span>
+</p>
+<p>日期控件：
+   <span class="sde-ctrl" contenteditable="false" id="RiQi" sde-type="date" sde-right="." sde-model="%7B%22desc%22%3A%22%E6%97%A5%E6%9C%9F%E5%86%85%E5%AE%B9%22%2C%22required%22%3A0%2C%22strictverify%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22min%22%3A%22%22%2C%22max%22%3A%22%22%2C%22format%22%3A%22%7Byyyy%7D-%7BMM%7D-%7Bdd%7D%20%7Bhh%7D%3A%7Bmm%7D%3A%7Bss%7D%22%2C%22defvalue%22%3A%222024-06-28%2012%3A00%3A00%22%7D">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="日期内容">2024-06-28 12:00:00</span>
+   </span>
+</p>
+<p>单选框：
+   <span class="sde-ctrl" contenteditable="false" id="DanXuan" sde-type="radio" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%8D%95%E9%80%89%E6%A1%86%22%2C%22required%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%5D" sde-updatetime="2024-06-28T15:40:43.126Z" sde-value="%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="单选框">
+         <label contenteditable="false">
+            <input name="radio_d8358629" type="radio" value="%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D" checked="checked">Game</label>
+         <label contenteditable="false">
+            <input name="radio_d8358629" type="radio" value="%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D">游戏</label>
+      </span>
+   </span>
+</p>
+<p>多选框：
+   <span class="sde-ctrl" contenteditable="false" id="Checkbox" sde-type="checkbox" sde-right="." sde-model="%7B%22desc%22%3A%22%E5%A4%9A%E9%80%89%E6%A1%86%22%2C%22required%22%3A0%2C%22notdel%22%3A0%2C%22mode%22%3A%22EDITOR%22%2C%22bindingdata%22%3A%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%222%22%2C%22label%22%3A%22%E5%85%B6%E4%BB%96%22%2C%22selected%22%3A0%7D%5D%2C%22remotedata%22%3Anull%7D" sde-isloadasyncdata="true" bindingdata="%5B%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%222%22%2C%22label%22%3A%22%E5%85%B6%E4%BB%96%22%2C%22selected%22%3A0%7D%5D" sde-updatetime="2024-06-28T15:41:17.509Z" sde-value="%5B%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D%2C%7B%22value%22%3A%222%22%2C%22label%22%3A%22%E5%85%B6%E4%BB%96%22%2C%22selected%22%3A0%7D%5D">
+      <span class="sde-value" contenteditable="true" sde-left="[" sde-right="]" title="多选框">
+         <label contenteditable="false">
+            <input type="checkbox" value="%7B%22value%22%3A%220%22%2C%22label%22%3A%22Game%22%2C%22selected%22%3A0%7D">Game</label>
+         <label contenteditable="false">
+            <input type="checkbox" value="%7B%22value%22%3A%221%22%2C%22label%22%3A%22%E6%B8%B8%E6%88%8F%22%2C%22selected%22%3A0%7D" checked="checked">游戏</label>
+         <label contenteditable="false">
+            <input type="checkbox" value="%7B%22value%22%3A%222%22%2C%22label%22%3A%22%E5%85%B6%E4%BB%96%22%2C%22selected%22%3A0%7D" checked="checked">其他</label>
+      </span>
+   </span>
+</p>
+```
 
 
 
