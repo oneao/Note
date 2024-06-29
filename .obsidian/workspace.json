@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子病历编辑器/X-Emr.md",
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "电子病历编辑器/X-Emr.md",
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "电子病历编辑器/X-Emr.md",
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电子病历编辑器/X-Emr.md"
+                "file": "电子病历编辑器/SoDiaoEditor-Vue.md"
               }
             }
           }
@@ -196,15 +196,15 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "b5a8904c79fdc4af",
+  "active": "9d493cdab2bc6c74",
   "lastOpenFiles": [
+    "电子病历编辑器/X-Emr.md",
     "电子病历编辑器/SoDiaoEditor-Vue.md",
     "电子病历编辑器/imgs/3.png",
     "电子病历编辑器/imgs",
     "电子病历编辑器/imgs/2.png",
     "Pasted image 20240629093804.png.md",
     "电子病历编辑器/Pasted image 20240629093804.png",
-    "电子病历编辑器/X-Emr.md",
     "电子病历编辑器/imgs/1.png",
     "Linux/解压缩/Zip.md",
     "Project/QuizMaster/项目搭建.md",
