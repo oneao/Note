@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
+                "file": "电子病历编辑器/X-Emr.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
+                "file": "电子病历编辑器/X-Emr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md",
+                "file": "电子病历编辑器/X-Emr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电子病历编辑器/SoDiaoEditor-Vue.md"
+                "file": "电子病历编辑器/X-Emr.md"
               }
             }
           }
@@ -196,11 +196,16 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "9d493cdab2bc6c74",
+  "active": "b5a8904c79fdc4af",
   "lastOpenFiles": [
-    "电子病历编辑器/X-Emr.md",
     "电子病历编辑器/SoDiaoEditor-Vue.md",
-    "电子病历编辑器/1.png",
+    "电子病历编辑器/imgs/3.png",
+    "电子病历编辑器/imgs",
+    "电子病历编辑器/imgs/2.png",
+    "Pasted image 20240629093804.png.md",
+    "电子病历编辑器/Pasted image 20240629093804.png",
+    "电子病历编辑器/X-Emr.md",
+    "电子病历编辑器/imgs/1.png",
     "Linux/解压缩/Zip.md",
     "Project/QuizMaster/项目搭建.md",
     "Project/QuizMaster/Table/2.loom",
@@ -226,7 +231,6 @@
     "Project/QuizMaster",
     "Project",
     "Project-Study/项目开发/Spring Boot后端项目搭建",
-    "Project-Study/项目开发",
     "Linux/Kali/开启蓝牙服务.md",
     "Project-Study/Soybean-Admin/src 根文件夹/service 后端服务/request 后端请求/介绍.md",
     "Project-Study/Soybean-Admin/src 根文件夹/typings 对象类型/app.d.ts 文件.md",
@@ -238,7 +242,6 @@
     "Back-End/GoLang/使用Goland创建项目.md",
     "Docker/Docker/安装.md",
     "Back-End/GoLang/安装.md",
-    "().md",
-    "Back-End/Java/安装.md"
+    "().md"
   ]
 }

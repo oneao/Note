@@ -38,7 +38,7 @@ Vue3版本尚未开源代码.
 该功能在使用**病例控件**时才会报错，因为是编译后的js源码原因，暂不进行修改和扩展。
 该编辑器提供上传和下载html的方法，所以新增控件上传模版和下载模版。
 1. 目前支持`html`格式，可进行修改。
-![[电子病历编辑器/1.png]]
+![[电子病历编辑器/imgs/1.png]]
 2. 也可以使用`sde.value.exportXML()`方法。
 ## 3.打印功能可以使用，但配置不生效.
 ### 3.1 分页符不生效
@@ -154,3 +154,121 @@ Vue3版本尚未开源代码.
 ### 4.2 修改后端
 修改后端的话，那么就需要导入和导出xml的功能。
 自带的导入/导出xml功能无法使用，需要自己新建控件并且参考`sdeEditor/doc/sde.api.md`文件。
+`<html>`标签内容的内容都相同，可以根据`<controls>`标签的不同进行修改和处理。
+可以在后端处理`xml文件`.可以使用`dom4j`解析`xml文件`。
+**未填写数据**
+![[电子病历编辑器/imgs/3.png]]
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+
+<xml>
+  <controls>
+    <id>BiaoQian</id>
+    <type>label</type>
+    <value>标签内容</value>
+  </controls>
+  <controls>
+    <id>DanHangWenBen</id>
+    <type>text</type>
+    <value/>
+  </controls>
+  <controls>
+    <id>SelectOne</id>
+    <type>select</type>
+    <value/>
+  </controls>
+  <controls>
+    <id>SelectMore</id>
+    <type>select</type>
+    <value/>
+  </controls>
+  <controls>
+    <id>RiQi</id>
+    <type>date</type>
+    <value/>
+  </controls>
+  <controls>
+    <id>DanXuan</id>
+    <type>radio</type>
+    <value/>
+  </controls>
+  <controls>
+    <id>Checkbox</id>
+    <type>checkbox</type>
+    <value/>
+  </controls>
+  <html>省略...</html>
+</xml>
+```
+
+**已填写数据**
+![[电子病历编辑器/imgs/2.png]]
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+
+<xml>
+  <controls>
+    <id>BiaoQian</id>
+    <type>label</type>
+    <value>标签内容</value>
+  </controls>
+  <controls>
+    <id>DanHangWenBen</id>
+    <type>text</type>
+    <value>123</value>
+  </controls>
+  <controls>
+    <id>SelectOne</id>
+    <type>select</type>
+    <value>
+      <value>1</value>
+      <label>Orange</label>
+      <selected>0</selected>
+    </value>
+  </controls>
+  <controls>
+    <id>SelectMore</id>
+    <type>select</type>
+    <value>
+      <value>0</value>
+      <label>Orange</label>
+      <selected>0</selected>
+    </value>
+    <value>
+      <value>2</value>
+      <label>Banana</label>
+      <selected>0</selected>
+    </value>
+  </controls>
+  <controls>
+    <id>RiQi</id>
+    <type>date</type>
+    <value>2024-06-28 12:00:00</value>
+  </controls>
+  <controls>
+    <id>DanXuan</id>
+    <type>radio</type>
+    <value>
+      <value>0</value>
+      <label>Game</label>
+      <selected>0</selected>
+    </value>
+  </controls>
+  <controls>
+    <id>Checkbox</id>
+    <type>checkbox</type>
+    <value>
+      <value>0</value>
+      <label>Game</label>
+      <selected>0</selected>
+    </value>
+    <value>
+      <value>1</value>
+      <label>游戏</label>
+      <selected>0</selected>
+    </value>
+  </controls>
+  <html>省略...</html>
+</xml>
+
+```
