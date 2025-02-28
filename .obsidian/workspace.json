@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "37ba774ecca48547",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9bcd9bb81d246c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03fdceb57a1ee1c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/QuizMaster（前端快速模块化）/Vue3项目搭建.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ca2b859948937dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "38db66d516431a10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddb29810afbe47ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aab8850fa48f03e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "https://www.x-emr.cn/",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7fdb6fa736aa4cd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6a7225cf0d622ed0",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfcb61c3808d277d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb88421b8946d2d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Project/QuizMaster（前端快速模块化）/Vue3项目搭建.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "93d6239852970b38",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Project/QuizMaster（前端快速模块化）/Vue3项目搭建.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b4cddb33240739c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7a0b9abe9c00b739",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project/QuizMaster（前端快速模块化）/Vue3项目搭建.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "03fdceb57a1ee1c8",
+  "lastOpenFiles": [
+    "Project/G3-Soft/G3-Soft-Front/__unconfig_vite.config.ts",
+    "Project/QuizMaster（后端快速模块化）/项目搭建.md",
+    "Project/QuizMaster（前端快速模块化）/Vue3项目搭建.md",
+    "前端/VUE项目初始化框架（VUE3）.md",
+    "前端/Frame-CSS/Tailwindcss/Vue2 +Tailwindcss.md",
+    "开发技巧/IDEA.md",
+    "电子病历编辑器/X-Emr.md",
+    "电子病历编辑器/SoDiaoEditor-Vue.md",
+    "开发技巧/MySQL.md",
+    "快递/概念.md",
+    "开发语言/Uniapp/页面路由.md",
+    "开发语言/Uniapp/介绍.md",
+    "开发语言/Java/安装.md",
+    "开发语言/GoLang/资料.md",
+    "开发语言/GoLang/安装.md",
+    "开发语言/GoLang/使用Goland创建项目.md",
+    "开发语言/GoLang/imgs/Pasted image 20240810232431.png",
+    "Project/Template/Template-Vue3/src/router/menu.ts",
+    "Project/Template/Template-Vue3/vite.config.ts.timestamp-1724679031074-5f5b775350d48.mjs",
+    "Project/Template/Template-Vue3/test.html",
+    "Project/Template/Template-Vue3/vite.config.ts.timestamp-1724676573914-91286678a42d6.mjs",
+    "Project/Template/Template-Vue3/build/plugins/unocss.ts",
+    "Project/Template/Template-Vue3/node_modules/@unocss",
+    "Project/Template/Template-Vue3/vite.config.ts.timestamp-1724585246265-0c2ad93786f5.mjs",
+    "Project/Template/Template-Vue3/src/plugins/loading.ts",
+    "Project/Template/Template-Vue3/src/plugins",
+    "Project/Template/Template-Vue3/vite.config.ts.timestamp-1724584409220-2afe9f022e5.mjs",
+    "Project/Template/Template-Vue3/src/assets/svg-icon/activity.svg",
+    "Project/Test/soybean-admin/public/favicon.svg",
+    "Project/Test/soybean-admin/src/assets/svg-icon/wind.svg",
+    "Project/Test/soybean-admin/src/assets/svg-icon/service-error.svg",
+    "Project/Test/soybean-admin/src/assets/svg-icon/not-found.svg",
+    "Project/Test/soybean-admin/src/assets/svg-icon/no-permission.svg",
+    "Project/Test/soybean-admin/src/assets/svg-icon/no-icon.svg",
+    "Project/Test/soybean-admin/src/assets/svg-icon/logo.svg",
+    "Project/Test/soybean-admin/src/assets/svg-icon/network-error.svg",
+    "Project/Test/soybean-admin/README.zh_CN.md",
+    "Project/Test/soybean-admin/README.md",
+    "Project/Test/soybean-admin/CHANGELOG.zh_CN.md",
+    "Project/Test/soybean-admin/CHANGELOG.md",
+    "Project/Template/Template-Vue3/README.md",
+    "开发工具/Vscode.md",
+    "开发工具/JetBrains系列.md",
+    "开发工具/IDEA/IDEA导入eclipse Web项目.md",
+    "开发工具/IDEA/报错：java未结束的字符串文字.md",
+    "草稿/草稿.md"
+  ]
+}
